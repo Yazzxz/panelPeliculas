@@ -4516,7 +4516,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: rgba(0, 0, 0);
   background-clip: border-box;
-  border: 0.125rem solid blueviolet;
+  /*border: 0.125rem solid blueviolet;*/
   border-radius: 0.5rem;
 }
 .card > hr {
@@ -7622,6 +7622,12 @@ textarea.form-control-lg {
 
 .fst-italic {
   font-style: italic !important;
+  font-size: 5rem !important;
+}
+
+.fst-otro {
+  font-family: 'Road Rage', cursive;
+  font-size: 5rem !important;
 }
 
 .fst-normal {
