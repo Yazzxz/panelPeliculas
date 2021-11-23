@@ -41,6 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-medioNegro: #4e4e4e
   --bs-primary-rgb: 26, 188, 156;
   --bs-secondary-rgb: 44, 62, 80;
   --bs-success-rgb: 25, 135, 84;
@@ -257,7 +258,12 @@ samp {
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override;
 }
-
+.mi-Columna{
+  border: 2px dotted red
+}
+.mi-Fila{
+  border: 1px solid blue
+}
 pre {
   display: block;
   margin-top: 0;
